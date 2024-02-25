@@ -18,6 +18,11 @@ _(You should have Node.js installed.)_
 
 Go to the directory where you want the project.
 
+
+HTTPS: git clone https://github.com/jannejjj/RASP24.git
+
+SSH: git clone git@github.com:jannejjj/RASP24.git
+
 ### How to run:
 
 ```bash
