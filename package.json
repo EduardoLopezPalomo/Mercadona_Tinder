@@ -1,7 +1,7 @@
 {
-  "name": "rasp24",
+  "name": "Mercadona-Tinder",
   "version": "1.0.0",
-  "description": "C/10A7011 Running a Software Project",
+  "description": "Course project for Advance Web Aplication",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
