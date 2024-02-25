@@ -1,0 +1,52 @@
+body {
+  overflow: hidden;
+}
+
+.HomePageBackground {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.profile-image {
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.HomePageBackground p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #666;
+}
+
+.HomePageBackground h1 {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.HomePageBackground button {
+  background-color: #cf9b9b;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.HomePageBackground button:hover {
+  background-color: #e56666;
+}
+
+.button-like {
+  margin-left: 30px;
+}
+
+.button-dislike {
+  margin-right: 30px;
+}

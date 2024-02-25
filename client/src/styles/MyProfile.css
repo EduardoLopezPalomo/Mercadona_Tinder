@@ -1,0 +1,64 @@
+.HomePageBackground
+{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0 0 0;
+}
+
+h1 
+{
+  margin: 0;
+}
+
+.Background {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 0 5px #888;
+  padding: 15px;
+  width: 100%;
+  max-width: 800px;  
+}
+
+
+.MyInfo {
+  padding: 0;
+  text-align: justify;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
+.profileText{
+  margin-left: 125px;
+}
+
+p
+{
+  font-size: medium;
+  font-weight: 400;
+  margin: 0;
+}
+
+.Image
+{
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.MyInfo .left-aligned-button {
+  margin-left: 60px; 
+}
+
+@media (max-width: 768px) {
+  .MyInfo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profileText {
+    margin-left: 0;
+    margin-top: 20px; 
+  }
+}

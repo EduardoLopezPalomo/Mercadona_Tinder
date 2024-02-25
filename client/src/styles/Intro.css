@@ -1,0 +1,44 @@
+.intro-container {
+    text-align: center;
+    margin-top: 100px;
+}
+  
+.intro-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+  
+.intro-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+  
+.intro-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+  
+.intro-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+  
+.intro-button:hover {
+    background-color: #4CAF50; /* Green */
+}
+
+@media (max-width: 768px) {
+    .intro-title {
+      font-size: 20px;
+    }
+  
+    .intro-description {
+      font-size: 14px;
+    }
+}
